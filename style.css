@@ -1,0 +1,47 @@
+/* div{
+    display: inline-block;
+    background-color: black;
+    color: white;
+} */
+/* to convert block element into inline elements  */
+/* display inline */
+
+/* if want to apply vertical changes like height margin
+ & padding top & bottom we use following */
+/* display inline block */
+
+/* to hide something use display none property it is like you comment code */
+/* to hide code but want to keep its place use vissibility hidden */
+
+div.parent {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+div.child {
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* in absolute position object take care of his parent position */
+/* in relative position object postion is his own postition */
+
+div.footer {
+    position: fixed;
+    bottom: 0%;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
